@@ -1,0 +1,89 @@
+module caseModels{
+  imports {
+	Base
+  }
+
+  model pistolcaseOpen
+  {
+    mesh    = pistolcaseopen,
+    texture = WorldItems/pistolcase,
+    scale   = 0.17,
+  }
+
+  model pistolcaseClosed
+  {
+    mesh    = pistolcaseclosed,
+    texture = WorldItems/pistolcase,
+    scale   = 0.17,
+  }
+
+  model pistolcaseLocked
+  {
+    mesh    = pistolcaseclosed,
+    texture = WorldItems/pistolcaselocked,
+    scale   = 0.17,
+  }
+
+  model riflecaseOpen
+  {
+    mesh    = riflecaseopen,
+    texture = WorldItems/riflecase,
+    scale   = 0.17,
+  }
+
+  model riflecaseClosed
+  {
+    mesh    = riflecaseclosed,
+    texture = WorldItems/riflecase,
+    scale   = 0.17,
+  }
+
+  model riflecaseLocked
+  {
+    mesh    = riflecaseclosed,
+    texture = WorldItems/riflecaselocked,
+    scale   = 0.17,
+  }
+
+  model ammocrate
+  {
+    mesh    = ammocrate,
+    texture = WorldItems/ammocrate,
+    scale   = 0.17,
+  }
+
+  model ammobox
+  {
+    mesh    = ammobox,
+    texture = WorldItems/ammobox,
+    scale   = 0.17,
+  }
+
+  model junkbox
+  {
+    mesh    = junkbox,
+    texture = WorldItems/junkbox,
+    scale   = 0.17,
+  }
+
+  model grenadecase
+  {
+    mesh    = grenadecase,
+    texture = WorldItems/grenadecase,
+    scale   = 0.17,
+  }
+
+  model weaponcrate
+  {
+    mesh    = weaponcrate,
+    texture = WorldItems/weaponcrate,
+    scale   = 0.17,
+  }
+
+  model signaliscase
+  {
+    mesh    = signaliscase,
+    texture = WorldItems/signaliscase,
+    scale   = 0.17,
+  }
+}

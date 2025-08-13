@@ -1,0 +1,150 @@
+module caseItems{
+  imports {
+	Base
+  }
+
+  item pistolcaseOpen
+  {
+    DisplayName      = Pistol Case,
+    DisplayCategory  = Container,
+    Type             = Container,
+    Weight           = 1,
+    Capacity	     = 6,
+    Icon             = pistolcase,
+    Tooltip          = Open,
+    WorldStaticModel = pistolcaseOpen,
+    WeightReduction  = 70
+  }
+
+  item pistolcaseClosed
+  {
+    DisplayName      = Pistol Case,
+    DisplayCategory  = Container,
+    Type             = Container,
+    Weight           = 1,
+    Capacity	     = 6,
+    Icon             = pistolcase,
+    Tooltip          = Closed,
+    WorldStaticModel = pistolcaseClosed,
+    WeightReduction  = 70
+  }
+
+  item pistolcaseLocked
+  {
+    DisplayName      = Marked Pistol Case,
+    DisplayCategory  = Container,
+    Weight           = 2,
+    Icon             = pistolcase,
+    Tooltip          = Locked Shut,
+    WorldStaticModel = pistolcaseLocked
+  }
+
+  item riflecaseOpen
+  {
+    DisplayName      = Rifle Case,
+    DisplayCategory  = Container,
+    Type             = Container,
+    Weight           = 3,
+    Capacity	     = 10,
+    Icon             = riflecase,
+    Tooltip          = Open,
+    WorldStaticModel = riflecaseopen,
+    WeightReduction  = 70
+  }
+
+  item riflecaseClosed
+  {
+    DisplayName      = Rifle Case,
+    DisplayCategory  = Container,
+    Type             = Container,
+    Weight           = 3,
+    Capacity	     = 10,
+    Icon             = riflecase,
+    Tooltip          = Closed,
+    WorldStaticModel = riflecaseclosed,
+    WeightReduction  = 70
+  }
+
+  item riflecaseLocked
+  {
+    DisplayName      = Marked Rifle Case,
+    DisplayCategory  = Container,
+    Weight           = 4,
+    Icon             = riflecase,
+    Tooltip          = Locked Shut,
+    WorldStaticModel = riflecaseLocked
+  }
+
+  item ammocrate
+  {
+    DisplayName      = Ammo Crate,
+    DisplayCategory  = Container,
+    Type             = Container,
+    Weight           = 1,
+    Capacity	     = 6,
+    Icon             = ammocrate,
+    WorldStaticModel = ammocrate,
+    WeightReduction  = 70
+  }
+
+  item ammobox
+  {
+    DisplayName      = Ammo Box,
+    DisplayCategory  = Container,
+    Type             = Container,
+    Weight           = 0.5,
+    Capacity	     = 4,
+    Icon             = ammobox,
+    WorldStaticModel = ammobox,
+    WeightReduction  = 70
+  }
+
+  item junkbox
+  {
+    DisplayName      = Junk Box,
+    DisplayCategory  = Container,
+    Type             = Container,
+    Weight           = 5,
+    Capacity	     = 30,
+    Icon             = junkbox,
+    WorldStaticModel = junkbox,
+    WeightReduction  = 70
+  }
+
+  item weaponcrate
+  {
+    DisplayName      = Weapon Crate,
+    DisplayCategory  = Container,
+    Type             = Container,
+    Weight           = 6,
+    Capacity	     = 35,
+    Icon             = weaponcrate,
+    WorldStaticModel = weaponcrate,
+    WeightReduction  = 70
+  }
+
+  item grenadecase
+  {
+    DisplayName      = Grenade Case,
+    DisplayCategory  = Container,
+    Type             = Container,
+    Weight           = 2,
+    Capacity	     = 8,
+    Icon             = grenadecase,
+    WorldStaticModel = grenadecase,
+    WeightReduction  = 70
+  }
+
+  item signaliscase
+  {
+    DisplayName      = Weapon Case,
+    DisplayCategory  = Container,
+    Type             = Container,
+    Weight           = 1,
+    Capacity	     = 6,
+    Icon             = signaliscase,
+    Tooltip          = A secure storage box for pistol-sized firearms locked with a small padlock,
+    WorldStaticModel = signaliscase,
+    WeightReduction  = 70
+  }
+}

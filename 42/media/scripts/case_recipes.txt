@@ -1,0 +1,43 @@
+module caseRecipes {
+  imports {
+	Base
+  }
+
+    craftRecipe Pry Open Pistol Case
+    {
+        Time = 600,
+        category = Miscellaneous,
+        Tags = InHandCraft;CanBeDoneInDark,
+        OnCreate = UnlockPistolCase_OnCreate,
+
+        inputs
+        {
+            item 1 tags[Crowbar] mode:keep,
+            item 1 [caseItems.pistolcaseLocked],
+        }
+
+        outputs
+        {
+            item 1 caseItems.pistolcaseOpen,
+        }
+    }
+
+    craftRecipe Pry Open Rifle Case
+    {
+        Time = 600,
+        category = Miscellaneous,
+        Tags = InHandCraft;CanBeDoneInDark,
+        OnCreate = UnlockRifleCase_OnCreate,
+
+        inputs
+        {
+            item 1 tags[Crowbar] mode:keep,
+            item 1 [caseItems.riflecaseLocked],
+        }
+
+        outputs
+        {
+            item 1 caseItems.riflecaseOpen,
+        }
+    }
+}

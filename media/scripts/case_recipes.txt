@@ -1,0 +1,25 @@
+module caseRecipes{
+  imports {
+	Base
+  }
+
+  recipe Pry Open
+  {
+    keep HuntingKnife/Crowbar/Machete/Screwdriver,
+    pistolcaseLocked,
+
+    Result:pistolcaseOpen,
+    Time:600.0,
+    OnCreate:UnlockPistolCase_OnCreate,
+  }
+
+  recipe Pry Open
+  {
+    keep HuntingKnife/Crowbar/Machete/Screwdriver,
+    riflecaseLocked,
+
+    Result:riflecaseOpen,
+    Time:600.0,
+    OnCreate:UnlockRifleCase_OnCreate,
+  }
+}

@@ -1,0 +1,24 @@
+Sandbox_EN = {
+	Sandbox_WeaponCases = "Weapon Cases",
+
+	Sandbox_WeaponCases_UseAdminContext = "Enable Admin Context"
+	Sandbox_WeaponCases_UseAdminContext_tooltip = "Enable an additional context menu for admins and developers."
+
+	Sandbox_WeaponCases_PoolVanillaEnabled 				= "Vanilla Compatible Pools",
+	Sandbox_WeaponCases_PoolVanillaEnabled_tooltip 		= "Allow marked cases to roll for Vanilla items.<br>(It is recommended to have only one pool selected)",
+
+	Sandbox_WeaponCases_Pool93Enabled 					= "Guns of 93 Compatible Pools",
+	Sandbox_WeaponCases_Pool93Enabled_tooltip 			= "Allow marked cases to roll for Guns of 93 items.<br>(It is recommended to have only one pool selected)",
+
+	Sandbox_WeaponCases_PoolBritaEnabled 				= "Brita's Weapon Pack Compatible Pools",
+	Sandbox_WeaponCases_PollBritaEnabled_tooltip 		= "Allow marked cases to roll for Brita's Weapon Pack items.<br>(It is recommended to have only one pool selected)",
+
+	Sandbox_WeaponCases_PoolVFEEnabled 				    = "Vanilla Firearms Expansion Compatible Pools",
+	Sandbox_WeaponCases_PollVFEEnabled_tooltip 		    = "Allow marked cases to roll for Vanilla Firearms Expansion items.<br>(It is recommended to have only one pool selected)",
+
+	Sandbox_WeaponCases_WeaponCaseChance 				= "Weapon Case Roll Chance %",
+	Sandbox_WeaponCases_WeaponCaseChance_tooltip 		= "Chance for a weapon case to be included as a spawn candidate.",
+
+	Sandbox_WeaponCases_config_notice 		  			= "Configs are moved to the 'media/lua/server/Config' folder."
+	Sandbox_WeaponCases_config_notice_tooltip   		= ".lua files are much easier to work with and even include annotations and hints for easier understanding :3",
+}

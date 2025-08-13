@@ -1,0 +1,49 @@
+VERSION = 1,
+
+option WeaponCases.UseAdminContext {
+    type = boolean,
+    default = false,
+
+    page = WeaponCases,
+    translation = WeaponCases_UseAdminContext,
+}
+
+option WeaponCases.PoolVanillaEnabled {
+    type = boolean,
+    default = true,
+
+    page = WeaponCases,
+    translation = WeaponCases_PoolVanillaEnabled,
+}
+
+option WeaponCases.Pool93Enabled {
+    type = boolean,
+    default = false,
+
+    page = WeaponCases,
+    translation = WeaponCases_Pool93Enabled,
+}
+
+option WeaponCases.PoolBritaEnabled {
+    type = boolean,
+    default = false,
+
+    page = WeaponCases,
+    translation = WeaponCases_PoolBritaEnabled,
+}
+
+option WeaponCases.PoolVFEEnabled {
+    type = boolean,
+    default = false,
+
+    page = WeaponCases,
+    translation = WeaponCases_PoolVFEEnabled,
+}
+
+option WeaponCases.ConfigNotice {
+    type = boolean,
+    default = true,
+
+    page = WeaponCases,
+    translation = WeaponCases_config_notice,
+}
