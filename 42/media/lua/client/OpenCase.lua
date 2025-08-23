@@ -10,13 +10,14 @@ end
 function FillPistolCase(container)
     local combinedPool = {}
 
-    insertPool(PistolCasePoolVanilla, combinedPool, SandboxVars.WeaponCases.PoolVanillaEnabled or true)
+    insertPool(PistolCasePoolVanilla, combinedPool, SandboxVars.WeaponCases.PoolVanillaEnabled or false)
     insertPool(PistolCasePool93, combinedPool, SandboxVars.WeaponCases.Pool93Enabled           or false)
     insertPool(PistolCasePoolBrita, combinedPool, SandboxVars.WeaponCases.PoolBritaEnabled     or false)
     insertPool(PistolCaseVFE, combinedPool, SandboxVars.WeaponCases.PoolVFEEnabled             or false)
     insertPool(PistolCaseRainsFirearms, combinedPool, SandboxVars.WeaponCases.PoolRainsFirearmsEnabled or false)
     insertPool(PistolCaseRainsBlades, combinedPool, SandboxVars.WeaponCases.PoolRainsBladesEnabled     or false)
-    
+    insertPool(PistolCaseEFK, combinedPool, SandboxVars.WeaponCases.PoolEFKEnabled             or false)
+
     --- @type HandWeapon
     local weapon = instanceItem(combinedPool[ZombRand(#combinedPool)+1])
     if weapon ~= nil then
@@ -35,12 +36,13 @@ end
 function FillRifleCase(container)
     local combinedPool = {}
 
-    insertPool(RifleCasePoolVanilla, combinedPool, SandboxVars.WeaponCases.PoolVanillaEnabled or true)
+    insertPool(RifleCasePoolVanilla, combinedPool, SandboxVars.WeaponCases.PoolVanillaEnabled or false)
     insertPool(RifleCasePool93, combinedPool, SandboxVars.WeaponCases.Pool93Enabled           or false)
     insertPool(RifleCasePoolBrita, combinedPool, SandboxVars.WeaponCases.PoolBritaEnabled     or false)
     insertPool(RifleCaseVFE, combinedPool, SandboxVars.WeaponCases.PoolVFEEnabled             or false)
     insertPool(RifleCaseRainsFirearms, combinedPool, SandboxVars.WeaponCases.PoolRainsFirearmsEnabled   or false)
     insertPool(RifleCaseRainsBlades, combinedPool, SandboxVars.WeaponCases.PoolRainsBladesEnabled       or false)
+    insertPool(RifleCaseEFK, combinedPool, SandboxVars.WeaponCases.PoolEFKEnabled             or false)
     
     --- @type HandWeapon
     local weapon = instanceItem(combinedPool[ZombRand(#combinedPool)+1])

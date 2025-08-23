@@ -56,6 +56,14 @@ option WeaponCases.PoolRainsBladesEnabled {
     translation = WeaponCases_PoolRainsBladesEnabled,
 }
 
+option WeaponCases.PoolEFKEnabled {
+    type = boolean,
+    default = false,
+
+    page = WeaponCases,
+    translation = WeaponCases_PoolEFKEnabled,
+}
+
 option WeaponCases.ConfigNotice {
     type = boolean,
     default = true,

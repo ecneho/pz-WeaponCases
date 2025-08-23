@@ -22,6 +22,9 @@ Sandbox_EN = {
 	Sandbox_WeaponCases_PoolRainsBladesEnabled 		     = "Rain's Axes & Blades Compatible Pools",
 	Sandbox_WeaponCases_PoolRainsBladesEnabled_tooltip   = "Allow marked cases to roll for Rain's Axes & Blades items.<br>(It is recommended to have only one pool selected)",
 
+	Sandbox_WeaponCases_PoolEFKEnabled				     = "Escape From Kentucky Compatible Pools",
+	Sandbox_WeaponCases_PoolEFKEnabled_tooltip   	     = "Allow marked cases to roll for Escape From Kentucky items.<br>(It is recommended to have only one pool selected)",
+
 	Sandbox_WeaponCases_WeaponCaseChance 				 = "Weapon Case Roll Chance %",
 	Sandbox_WeaponCases_WeaponCaseChance_tooltip 		 = "Chance for a weapon case to be included as a spawn candidate.",
 
