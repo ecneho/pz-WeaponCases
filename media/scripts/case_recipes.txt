@@ -9,7 +9,7 @@ module caseRecipes{
     pistolcaseLocked,
 
     Result:pistolcaseOpen,
-    Time:600.0,
+    Time:50.0,
     OnCreate:UnlockPistolCase_OnCreate,
   }
 
@@ -19,7 +19,7 @@ module caseRecipes{
     riflecaseLocked,
 
     Result:riflecaseOpen,
-    Time:600.0,
+    Time:100.0,
     OnCreate:UnlockRifleCase_OnCreate,
   }
 }

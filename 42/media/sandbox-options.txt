@@ -64,6 +64,14 @@ option WeaponCases.PoolEFKEnabled {
     translation = WeaponCases_PoolEFKEnabled,
 }
 
+option WeaponCases.PoolFirearmsHyzoEnabled {
+    type = boolean,
+    default = false,
+
+    page = WeaponCases,
+    translation = WeaponCases_PoolFirearmsHyzoEnabled,
+}
+
 option WeaponCases.ConfigNotice {
     type = boolean,
     default = true,

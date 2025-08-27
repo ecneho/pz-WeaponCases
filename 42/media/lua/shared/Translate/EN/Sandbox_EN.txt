@@ -25,6 +25,9 @@ Sandbox_EN = {
 	Sandbox_WeaponCases_PoolEFKEnabled				     = "Escape From Kentucky Compatible Pools",
 	Sandbox_WeaponCases_PoolEFKEnabled_tooltip   	     = "Allow marked cases to roll for Escape From Kentucky items.<br>(It is recommended to have only one pool selected)",
 
+	Sandbox_WeaponCases_PoolFirearmsHyzoEnabled			 = "Firearms by Hyzo Compatible Pools",
+	Sandbox_WeaponCases_PoolFirearmsHyzoEnabled_tooltip  = "Allow marked cases to roll for Firearms by Hyzo items.<br>(It is recommended to have only one pool selected)",
+
 	Sandbox_WeaponCases_WeaponCaseChance 				 = "Weapon Case Roll Chance %",
 	Sandbox_WeaponCases_WeaponCaseChance_tooltip 		 = "Chance for a weapon case to be included as a spawn candidate.",
 

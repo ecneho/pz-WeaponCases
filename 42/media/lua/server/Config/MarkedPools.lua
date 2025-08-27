@@ -1,5 +1,62 @@
 -- Thanks to @Bayrain for providing additional Pool93 IDs. :3
 
+RifleCaseFirearmsHyzo = {
+    "Base.AssaultRifle",
+    "Base.M16A2",
+    "Base.M733",
+    "Base.AR15",
+    "Base.M60",
+    "Base.AK47",
+    "Base.FN_FAL",
+    "Base.G3",
+    "Base.Winchester94",
+    "Base.Winchester73",
+    "Base.Rossi92",
+    "Base.VarmintRifle",
+    "Base.HuntingRifle",
+    "Base.HuntingRifle_Sawn",
+    "Base.Rugerm7722",
+    "Base.SKS",
+    "Base.M24Rifle",
+    "Base.AssaultRifle2",
+    "Base.M1Garand",
+    "Base.DoubleBarrelShotgun",
+    "Base.DoubleBarrelShotgunSawnoff",
+    "Base.Shotgun",
+    "Base.ShotgunSawnoff",
+    "Base.Mossberg500",
+    "Base.Mossberg500Tactical",
+    "Base.Remington870Wood",
+    "Base.Remington870Sawnoff",
+    "Base.M37",
+    "Base.M37Sawnoff",
+    "Base.SPAS12",
+    "Base.LAW12",
+    "Base.MP5",
+    "Base.MP5SD",
+    "Base.MP510",
+    "Base.UZI",
+    "Base.Mac10"
+}
+
+PistolCaseFirearmsHyzo = {
+    "Base.Pistol",
+    "Base.Pistol2",
+    "Base.Pistol3",
+    "Base.Glock17",
+    "Base.ColtAce",
+    "Base.ICA19",
+    "Base.ICA19_Gold",
+    "Base.Revolver",
+    "Base.Revolver_Long",
+    "Base.Revolver_Short",
+    "Base.ColtPython",
+    "Base.ColtPythonHunter",
+    "Base.ColtAnaconda",
+    "Base.ColtPeacemaker",
+    "Base.ColtSingleAction22"
+}
+
 PistolCaseEFK = {
     "Base.Pistol",
     "Base.Revolver",

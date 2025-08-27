@@ -16,7 +16,8 @@ function FillPistolCase(container)
     insertPool(PistolCaseVFE, combinedPool, SandboxVars.WeaponCases.PoolVFEEnabled             or false)
     insertPool(PistolCaseRainsFirearms, combinedPool, SandboxVars.WeaponCases.PoolRainsFirearmsEnabled or false)
     insertPool(PistolCaseRainsBlades, combinedPool, SandboxVars.WeaponCases.PoolRainsBladesEnabled     or false)
-    insertPool(PistolCaseEFK, combinedPool, SandboxVars.WeaponCases.PoolEFKEnabled             or false)
+    insertPool(PistolCaseEFK, combinedPool, SandboxVars.WeaponCases.PoolEFKEnabled                     or false)
+    insertPool(PistolCaseFirearmsHyzo, combinedPool, SandboxVars.WeaponCases.PoolFirearmsHyzoEnabled   or false)
 
     --- @type HandWeapon
     local weapon = instanceItem(combinedPool[ZombRand(#combinedPool)+1])
@@ -42,7 +43,8 @@ function FillRifleCase(container)
     insertPool(RifleCaseVFE, combinedPool, SandboxVars.WeaponCases.PoolVFEEnabled             or false)
     insertPool(RifleCaseRainsFirearms, combinedPool, SandboxVars.WeaponCases.PoolRainsFirearmsEnabled   or false)
     insertPool(RifleCaseRainsBlades, combinedPool, SandboxVars.WeaponCases.PoolRainsBladesEnabled       or false)
-    insertPool(RifleCaseEFK, combinedPool, SandboxVars.WeaponCases.PoolEFKEnabled             or false)
+    insertPool(RifleCaseEFK, combinedPool, SandboxVars.WeaponCases.PoolEFKEnabled                       or false)
+    insertPool(RifleCaseFirearmsHyzo, combinedPool, SandboxVars.WeaponCases.PoolFirearmsHyzoEnabled     or false)
     
     --- @type HandWeapon
     local weapon = instanceItem(combinedPool[ZombRand(#combinedPool)+1])

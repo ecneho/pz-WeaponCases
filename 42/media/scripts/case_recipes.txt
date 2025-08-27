@@ -5,7 +5,7 @@ module caseRecipes {
 
     craftRecipe Pry Open Pistol Case
     {
-        Time = 600,
+        Time = 50,
         category = Miscellaneous,
         Tags = InHandCraft;CanBeDoneInDark,
         OnCreate = UnlockPistolCase_OnCreate,
@@ -24,7 +24,7 @@ module caseRecipes {
 
     craftRecipe Pry Open Rifle Case
     {
-        Time = 600,
+        Time = 100,
         category = Miscellaneous,
         Tags = InHandCraft;CanBeDoneInDark,
         OnCreate = UnlockRifleCase_OnCreate,
