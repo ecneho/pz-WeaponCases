@@ -50,9 +50,9 @@ function FillRifleCase(container)
     
     --- @type HandWeapon
     local weapon = instanceItem(combinedPool[ZombRand(#combinedPool)+1])
-    if weapon ~= nil then
+    if weapon ~= nil and weapon ~= "" then
         local mag = weapon:getMagazineType()
-        if mag ~= nil then
+        if mag ~= nil and mag ~= "" then
             local amount = ZombRand(3) + 1
             for _ = 1, amount do
                 container:AddItem(mag)
