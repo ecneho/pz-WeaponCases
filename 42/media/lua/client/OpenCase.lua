@@ -18,12 +18,13 @@ function FillPistolCase(container)
     insertPool(PistolCaseRainsBlades, combinedPool, SandboxVars.WeaponCases.PoolRainsBladesEnabled     or false)
     insertPool(PistolCaseEFK, combinedPool, SandboxVars.WeaponCases.PoolEFKEnabled                     or false)
     insertPool(PistolCaseFirearmsHyzo, combinedPool, SandboxVars.WeaponCases.PoolFirearmsHyzoEnabled   or false)
+    insertPool(PistolCaseAdvancedWarfare, combinedPool, SandboxVars.WeaponCases.PoolAdvancedWarfareEnabled   or false)
 
     --- @type HandWeapon
     local weapon = instanceItem(combinedPool[ZombRand(#combinedPool)+1])
-    if weapon ~= nil then
+    if weapon ~= nil and weapon ~= "" then
         local mag = weapon:getMagazineType()
-        if mag ~= nil then
+        if mag ~= nil and mag ~= "" then
             local amount = ZombRand(3) + 1
             for _ = 1, amount do
                 container:AddItem(mag)
@@ -45,6 +46,7 @@ function FillRifleCase(container)
     insertPool(RifleCaseRainsBlades, combinedPool, SandboxVars.WeaponCases.PoolRainsBladesEnabled       or false)
     insertPool(RifleCaseEFK, combinedPool, SandboxVars.WeaponCases.PoolEFKEnabled                       or false)
     insertPool(RifleCaseFirearmsHyzo, combinedPool, SandboxVars.WeaponCases.PoolFirearmsHyzoEnabled     or false)
+    insertPool(RifleCaseAdvancedWarfare, combinedPool, SandboxVars.WeaponCases.PoolAdvancedWarfareEnabled   or false)
     
     --- @type HandWeapon
     local weapon = instanceItem(combinedPool[ZombRand(#combinedPool)+1])

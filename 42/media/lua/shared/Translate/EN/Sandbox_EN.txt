@@ -28,6 +28,9 @@ Sandbox_EN = {
 	Sandbox_WeaponCases_PoolFirearmsHyzoEnabled			 = "Firearms by Hyzo Compatible Pools",
 	Sandbox_WeaponCases_PoolFirearmsHyzoEnabled_tooltip  = "Allow marked cases to roll for Firearms by Hyzo items.<br>(It is recommended to have only one pool selected)",
 
+	Sandbox_WeaponCases_PoolAdvancedWarfareEnabled		   = "Advanced Warfare: EVOLUTION Compatible Pools",
+	Sandbox_WeaponCases_PoolAdvancedWarfareEnabled_tooltip = "Allow marked cases to roll for Advanced Warfare: EVOLUTION items.<br>(It is recommended to have only one pool selected)",
+
 	Sandbox_WeaponCases_WeaponCaseChance 				 = "Weapon Case Roll Chance %",
 	Sandbox_WeaponCases_WeaponCaseChance_tooltip 		 = "Chance for a weapon case to be included as a spawn candidate.",
 

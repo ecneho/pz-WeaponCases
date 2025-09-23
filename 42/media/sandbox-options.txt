@@ -72,6 +72,14 @@ option WeaponCases.PoolFirearmsHyzoEnabled {
     translation = WeaponCases_PoolFirearmsHyzoEnabled,
 }
 
+option WeaponCases.PoolAdvancedWarfareEnabled {
+    type = boolean,
+    default = false,
+
+    page = WeaponCases,
+    translation = WeaponCases_PoolAdvancedWarfareEnabled,
+}
+
 option WeaponCases.ConfigNotice {
     type = boolean,
     default = true,
