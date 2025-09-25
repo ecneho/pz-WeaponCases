@@ -12,7 +12,7 @@ module caseRecipes {
 
         inputs
         {
-            item 1 tags[Crowbar] mode:keep,
+            item 1 tags[Crowbar;Screwdriver;SharpKnife] mode:keep,
             item 1 [caseItems.pistolcaseLocked],
         }
 
@@ -31,7 +31,7 @@ module caseRecipes {
 
         inputs
         {
-            item 1 tags[Crowbar] mode:keep,
+            item 1 tags[Crowbar;Screwdriver;SharpKnife] mode:keep,
             item 1 [caseItems.riflecaseLocked],
         }
 

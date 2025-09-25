@@ -36,7 +36,7 @@ module caseItems{
     Weight           = 2,
     Icon             = pistolcase,
     Tooltip          = Locked Shut,
-    WorldStaticModel = pistolcaseLocked
+    WorldStaticModel = pistolcaseLocked,
   }
 
   item riflecaseOpen
@@ -48,7 +48,7 @@ module caseItems{
     Capacity	     = 10,
     Icon             = riflecase,
     Tooltip          = Open,
-    WorldStaticModel = riflecaseopen,
+    WorldStaticModel = riflecaseOpen,
     WeightReduction  = 70
   }
 
@@ -61,7 +61,7 @@ module caseItems{
     Capacity	     = 10,
     Icon             = riflecase,
     Tooltip          = Closed,
-    WorldStaticModel = riflecaseclosed,
+    WorldStaticModel = riflecaseClosed,
     WeightReduction  = 70
   }
 
@@ -72,7 +72,7 @@ module caseItems{
     Weight           = 4,
     Icon             = riflecase,
     Tooltip          = Locked Shut,
-    WorldStaticModel = riflecaseLocked
+    WorldStaticModel = riflecaseLocked,
   }
 
   item ammocrate

@@ -62,3 +62,31 @@ SpawnConfig = {
         { Name = "caseItems.pistolcaseLocked",            Chance = chance, RoomType = rooms, ContainerType = containers }
     }
 }
+
+--- Pool Blacklisting by ModID
+---@type string[]
+ModPoolBlacklist = {
+    -- disables all vanilla items:
+    -- "pz-vanilla"
+}
+
+--- Pool Blacklisting by ItemID
+---@type string[]
+ItemPoolBlacklist = {
+    -- disables all vanilla pistols:
+    -- "Base.Pistol",
+    -- "Base.Pistol2",
+    -- "Base.Pistol3",
+    -- "Base.Revolver",
+    -- "Base.Revolver_Short",
+    -- "Base.Revolver_Long",
+    -- "Base.Rifle_CapGun",
+    -- "Base.Revolver_CapGun",
+}
+
+--- Pool Injection by ItemID
+---@type string[]
+ItemPoolWhitelist = {
+    -- adds vanilla Spoon to the pool:
+    -- "Base.Spoon",
+}

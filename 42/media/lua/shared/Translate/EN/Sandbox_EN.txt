@@ -1,39 +1,9 @@
 Sandbox_EN = {
 	Sandbox_WeaponCases = "Weapon Cases",
 
-	Sandbox_WeaponCases_UseAdminContext = "Enable Admin Context"
-	Sandbox_WeaponCases_UseAdminContext_tooltip = "Enable an additional context menu for admins and developers."
+	Sandbox_WeaponCases_UseAdminContext 		 = "Enable Admin Context"
+	Sandbox_WeaponCases_UseAdminContext_tooltip  = "Enable an additional context menu for admins and developers."
 
-	Sandbox_WeaponCases_PoolVanillaEnabled 				 = "Vanilla Compatible Pools",
-	Sandbox_WeaponCases_PoolVanillaEnabled_tooltip 		 = "Allow marked cases to roll for Vanilla items.<br>(It is recommended to have only one pool selected)",
-
-	Sandbox_WeaponCases_Pool93Enabled 					 = "Guns of 93 Compatible Pools",
-	Sandbox_WeaponCases_Pool93Enabled_tooltip 			 = "Allow marked cases to roll for Guns of 93 items.<br>(It is recommended to have only one pool selected)",
-
-	Sandbox_WeaponCases_PoolBritaEnabled 				 = "Brita's Weapon Pack Compatible Pools",
-	Sandbox_WeaponCases_PollBritaEnabled_tooltip 		 = "Allow marked cases to roll for Brita's Weapon Pack items.<br>(It is recommended to have only one pool selected)",
-
-	Sandbox_WeaponCases_PoolVFEEnabled 				     = "Vanilla Firearms Expansion Compatible Pools",
-	Sandbox_WeaponCases_PollVFEEnabled_tooltip 		     = "Allow marked cases to roll for Vanilla Firearms Expansion items.<br>(It is recommended to have only one pool selected)",
-
-	Sandbox_WeaponCases_PoolRainsFirearmsEnabled 		 = "Rain's Firearms Expansion & Gun Parts Compatible Pools",
-	Sandbox_WeaponCases_PoolRainsFirearmsEnabled_tooltip = "Allow marked cases to roll for Rain's Firearms & Gun Parts items.<br>(It is recommended to have only one pool selected)",
-
-	Sandbox_WeaponCases_PoolRainsBladesEnabled 		     = "Rain's Axes & Blades Compatible Pools",
-	Sandbox_WeaponCases_PoolRainsBladesEnabled_tooltip   = "Allow marked cases to roll for Rain's Axes & Blades items.<br>(It is recommended to have only one pool selected)",
-
-	Sandbox_WeaponCases_PoolEFKEnabled				     = "Escape From Kentucky Compatible Pools",
-	Sandbox_WeaponCases_PoolEFKEnabled_tooltip   	     = "Allow marked cases to roll for Escape From Kentucky items.<br>(It is recommended to have only one pool selected)",
-
-	Sandbox_WeaponCases_PoolFirearmsHyzoEnabled			 = "Firearms by Hyzo Compatible Pools",
-	Sandbox_WeaponCases_PoolFirearmsHyzoEnabled_tooltip  = "Allow marked cases to roll for Firearms by Hyzo items.<br>(It is recommended to have only one pool selected)",
-
-	Sandbox_WeaponCases_PoolAdvancedWarfareEnabled		   = "Advanced Warfare: EVOLUTION Compatible Pools",
-	Sandbox_WeaponCases_PoolAdvancedWarfareEnabled_tooltip = "Allow marked cases to roll for Advanced Warfare: EVOLUTION items.<br>(It is recommended to have only one pool selected)",
-
-	Sandbox_WeaponCases_WeaponCaseChance 				 = "Weapon Case Roll Chance %",
-	Sandbox_WeaponCases_WeaponCaseChance_tooltip 		 = "Chance for a weapon case to be included as a spawn candidate.",
-
-	Sandbox_WeaponCases_config_notice 		  			 = "Configs are moved to the 'media/lua/server/Config' folder."
-	Sandbox_WeaponCases_config_notice_tooltip   		 = ".lua files are much easier to work with and even include annotations and hints for easier understanding :3",
+	Sandbox_WeaponCases_config_notice 		  	 = "Configs are moved to the 'media/lua/server/Config' folder."
+	Sandbox_WeaponCases_config_notice_tooltip    = ".lua files are much easier to work with and even include annotations and hints for easier understanding :3",
 }
