@@ -63,17 +63,42 @@ SpawnConfig = {
     }
 }
 
+--- Pool Injection Priority:
+--   I. Item Pool Blacklist
+-- If an item is listed, it is always excluded no matter what.
+
+--  II. Item Pool Whitelist
+-- If an item is listed, it is always included, unless blacklisted.
+
+-- III. Mod Pool Blacklist
+-- If an item’s mod is listed, the item is excluded unless the item itself is whitelisted.
+
+--  IV. Mod Pool Whitelist
+-- If the whitelist is not empty, only items from mods in this list are included. (Items replaced by other mods are treated as if they originate from those mods)
+
+--   V. Default
+-- The item is included if it is ranged.
+
 --- Pool Blacklisting by ModID
 ---@type string[]
 ModPoolBlacklist = {
-    -- disables all vanilla items:
+    --- disables all vanilla items:
+    -- "pz-vanilla"
+}
+
+--- Pool Whitelisting by ModID.
+--- If any mods are whitelisted, only those will be used.
+--- If the whitelist is empty, all mods will be used unless specified in the blacklist.
+---@type string[]
+ModPoolWhitelist = {
+    --- enables vanilla items ONLY
     -- "pz-vanilla"
 }
 
 --- Pool Blacklisting by ItemID
 ---@type string[]
 ItemPoolBlacklist = {
-    -- disables all vanilla pistols:
+    --- disables all vanilla pistols:
     -- "Base.Pistol",
     -- "Base.Pistol2",
     -- "Base.Pistol3",
@@ -87,6 +112,6 @@ ItemPoolBlacklist = {
 --- Pool Injection by ItemID
 ---@type string[]
 ItemPoolWhitelist = {
-    -- adds vanilla Spoon to the pool:
+    --- adds vanilla Spoon to the pool:
     -- "Base.Spoon",
 }

@@ -4,7 +4,7 @@ local function ChangeItem(item, target)
   local items = item:getItemContainer():getItems()
   local inventory = item:getContainer()
 
-  local case = InventoryItemFactory.CreateItem(target)
+  local case = instanceItem(target)
   case:getItemContainer():setItems(items)
   case:setName(item:getName())
 

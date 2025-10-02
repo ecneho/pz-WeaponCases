@@ -20,16 +20,24 @@ function GetWeaponDataOnInitWorld()
         --- @type Item
         local item = items:get(i)
         local name = item:getFullName();
+        local modID = item:getModID();
 
-        if not contains(ModPoolBlacklist, item:getModID()) then
-            --- Weapons with weight exceeding 3kg are considered rifles.
-            if item:isRanged() or contains(ItemPoolWhitelist, name) then
-                if not contains(ItemPoolBlacklist, name) then
-                    if (item:getActualWeight() > 3) then
-                        table.insert(Rifles, name)
-                    else
-                        table.insert(Pistols, name)
-                    end
+        local isItemWhitelisted = contains(ItemPoolWhitelist, name)
+        local isItemBlacklisted = contains(ItemPoolBlacklist, name)
+
+        local isModWhitelisted = #ModPoolWhitelist == 0 or contains(ModPoolWhitelist, modID)
+        local isModBlacklisted = contains(ModPoolBlacklist, modID)
+
+        if not isItemBlacklisted and (
+            isItemWhitelisted or (
+                isModWhitelisted and not isModBlacklisted)
+            ) then
+            if item:isRanged() or isItemWhitelisted then
+                --- Weapons with weight exceeding 3kg are considered rifles.
+                if item:getActualWeight() > 3 then
+                    table.insert(Rifles, name)
+                else
+                    table.insert(Pistols, name)
                 end
             end
         end
@@ -61,12 +69,14 @@ function FillWeaponCase(container, fromTable)
     end
 end
 
-function UnlockPistolCase_OnCreate(_, result, _)
+function UnlockPistolCase_OnCreate(recipeData, _)
+    local result = recipeData:getAllCreatedItems():get(0);
     local container = result:getInventory()
     FillWeaponCase(container, Pistols)
 end
 
-function UnlockRifleCase_OnCreate(_, result, _)
+function UnlockRifleCase_OnCreate(recipeData, _)
+    local result = recipeData:getAllCreatedItems():get(0);
     local container = result:getInventory()
     FillWeaponCase(container, Rifles)
 end
