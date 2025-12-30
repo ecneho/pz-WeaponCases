@@ -1,0 +1,17 @@
+VERSION = 1,
+
+option WeaponCases.UseAdminContext {
+    type = boolean,
+    default = false,
+
+    page = WeaponCases,
+    translation = WeaponCases_UseAdminContext,
+}
+
+option WeaponCases.ConfigNotice {
+    type = boolean,
+    default = true,
+
+    page = WeaponCases,
+    translation = WeaponCases_config_notice,
+}

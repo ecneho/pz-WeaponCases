@@ -1,0 +1,9 @@
+Sandbox_EN = {
+	Sandbox_WeaponCases = "Weapon Cases",
+
+	Sandbox_WeaponCases_UseAdminContext 		 = "Enable Admin Context"
+	Sandbox_WeaponCases_UseAdminContext_tooltip  = "Enable an additional context menu for admins and developers."
+
+	Sandbox_WeaponCases_config_notice 		  	 = "Configs are moved to the 'media/lua/server/Config' folder."
+	Sandbox_WeaponCases_config_notice_tooltip    = ".lua files are much easier to work with and even include annotations and hints for easier understanding :3",
+}
